@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+.content {
+    width: 60%;
+    min-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.items {
+    height: 33.33%;
+    border: 2px solid rgb(169, 158, 158);
+    margin-top: -2px;
+    background-color: #f0f0f0;
+}
+.bitem {
+    height: 270px;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto 20px;
+}
+h1 {
+    margin: 10px 0;
+    text-align: center;
+}
+.item {
+    display: inline-block;
+    width: 49%; /*由于空格占位而导致使用50%会导致换行*/
+    height: 100%;
+    text-align: center;
+    padding: 10px 0 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.food {
+    display: inline-block;
+    width: 100%;
+}
+.img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+span {
+    color: rgb(255, 0, 0);
+}
