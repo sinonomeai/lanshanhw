@@ -25,6 +25,7 @@ html {
     width: 90%;
     padding: 10px;
     margin: 0 auto 20px;
+    font-size: 0;
 }
 h1 {
     margin: 10px 0;
@@ -32,14 +33,21 @@ h1 {
 }
 .item {
     display: inline-block;
-    width: 49%; /*由于空格占位而导致使用50%会导致换行*/
+    width: 50%; /*由于空格占位而导致使用50%会导致换行*/
     height: 100%;
     text-align: center;
     padding: 10px 0 20px;
     border-radius: 10px;
     background-color: #fff;
-    overflow: hidden;
+    font-size: 16px;
 }
+.bitem .item:first-child{
+    border-right: 1px solid;
+}
+.bitem .item:nth-child(2){
+    border-left: 1px solid;
+}
+
 .food {
     display: inline-block;
     width: 100%;
@@ -50,9 +58,13 @@ h1 {
     height: 100px;
 }
 img{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 span {
     color: rgb(255, 0, 0);
+}
+p{
+    font-weight: 300;
+    color: rgb(99, 99, 99);
 }
