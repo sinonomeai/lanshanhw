@@ -23,8 +23,8 @@ a{
     flex-direction: column;
     min-width: 250px;
     max-width: 500px;/*由具体数值决定每行占几个*/
-    flex:1;
-    margin-bottom: 30px; 
+    flex:1;          /*核心*/
+    margin-bottom: 30px; /*用父元素外边距抵消*/
     transition: all .3s ease;
 }
 .item .img{

@@ -1,0 +1,35 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.content{
+    width: 80%;
+    min-width: 720px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    margin: 50px auto;
+    gap:20px
+}
+.item{
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.item .img:not(:nth-child(1)){
+    width: 100%;
+    max-width: 325px;
+}
+.img img{
+width: 100%;
+
+    border-radius: 10px;
+}
+.item:first-child{
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;
+    height: auto;
+}
