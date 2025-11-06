@@ -24,6 +24,7 @@ a {
 }
 .item:hover {
     transform: scale(1.1);
+    transition: all 0.3s ease;
 }
 .item1:hover{
     transform: scale(1.05);
@@ -75,6 +76,7 @@ a {
 }
 .long-info a:hover {
     color: rgb(28, 139, 186);
+    transition: all 0.3s ease;
 }
 .author-name {
     padding-left: 10px;
