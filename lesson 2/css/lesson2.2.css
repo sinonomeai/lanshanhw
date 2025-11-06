@@ -57,7 +57,7 @@ a {
     display: flex;
     flex-direction: column;
     position: relative;
-    padding: 5px 0;
+    margin-top: -3px;
 }
 .long-info1::after {
     content: "";
@@ -67,7 +67,7 @@ a {
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    box-shadow: 0 -40px 40px 25px #00a8ba;
+    box-shadow: 0 -40px 35px 25px #00a8ba;
 }
 .long-info {
     display: flex;
@@ -100,7 +100,7 @@ a {
         grid-auto-flow: minmax(165px, auto);
     }
     .item:nth-child(n + 4):nth-child(-n + 6) {
-        margin-top: 50px;
+        margin-top: 50px;;
     }
     .item:nth-child(n + 7) {
         margin-top: 30px;
