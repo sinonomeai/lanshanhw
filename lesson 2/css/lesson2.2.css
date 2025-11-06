@@ -58,7 +58,7 @@ a {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: -3px;
+    margin-top: -2px;
 }
 .long-info1::after {
     content: "";
